@@ -33,7 +33,7 @@ window.analytics.load = function (QQ49AEeZS4DNgkMo8u7MGkTTCrOHWZtL) {
   script.type = 'text/javascript';
   script.async = true;
   script.src = ('https:' === document.location.protocol ? 'https://' : 'http://') +
-                'd2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/' + apiKey + '/analytics.min.js';
+                'd2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/' + 'QQ49AEeZS4DNgkMo8u7MGkTTCrOHWZtL' + '/analytics.min.js';
 
   // Find the first script element on the page and insert our script next to it.
   var firstScript = document.getElementsByTagName('script')[0];
@@ -45,7 +45,7 @@ window.analytics.SNIPPET_VERSION = '2.0.8';
 
 // Load analytics.js with your API key, which will automatically load all of the
 // analytics integrations you've turned on for your account. Boosh!
-window.analytics.load('YOUR_API_TOKEN');
+window.analytics.load('QQ49AEeZS4DNgkMo8u7MGkTTCrOHWZtL');
 
 // Make our first page call to load the integrations. If you'd like to manually
 // name or tag the page, edit or move this call to use your own tags.
